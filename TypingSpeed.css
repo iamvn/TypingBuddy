@@ -1,0 +1,155 @@
+body {
+  background-color: rgba(18, 179, 228, 0.164);
+  font-family: "Montserrat", sans-serif;
+}
+.brand_name {
+  color: black;
+  font-weight: bolde;
+}
+.my_count {
+  border-radius: 10px;
+  outline: none;
+  margin-right: 10px;
+}
+.my_count::placeholder {
+  color: black;
+  font-size: 15px;
+}
+#countTry {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.brand_name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.mainbtn {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(18, 179, 228);
+  outline: none !important;
+  border: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.button_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  margin-top: 20px;
+  border: solid rgb(18, 179, 228) 10px;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+}
+.nav_class {
+  display: flex;
+  background-color: rgb(18, 179, 228) !important;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: medium;
+}
+h1 {
+  text-align: center;
+}
+#quout {
+  color: green;
+  font-weight: bold;
+}
+::placeholder {
+  color: wheat;
+  padding: 10px;
+}
+.container_textArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div_quot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#error,
+#time_started {
+  color: red;
+  font-size: 22px;
+}
+#message {
+  font-size: 20px;
+}
+#dev {
+  margin-left: 5px;
+  color: black;
+  cursor: pointer;
+}
+#logo {
+  color: rgb(18, 179, 228) !important;
+  font-weight: bold;
+}
+a {
+  color: green;
+}
+.social {
+  text-decoration: none !important;
+  outline: none;
+}
+.main_cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+.rules,
+.quick,
+.tips {
+  color: black !important;
+  font-weight: bolder;
+}
+.rules_desp,
+.quick_disp,
+.tips_disp {
+  color: black !important;
+  font-size: 15px;
+}
+.card {
+  border: solid 3px rgb(18, 179, 228) !important;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
